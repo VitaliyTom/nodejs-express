@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "intro express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Tamashevich Vitaliy",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
